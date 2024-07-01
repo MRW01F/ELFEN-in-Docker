@@ -1,7 +1,8 @@
 # ELFEN-in-Docker
 
 Elfen is using Docker to analyze Malware, with ELFEN-in-Docker we are creating ELFEN inside a docker.
-this basically creates the following structure
+this basically creates the following structure 
+
 `Main Machine --> ELFEN-in-Docker (Host docker) --> ELFEN (SANDBOX) --> Sandboxed Docker Container (Malware runs here)`
 
 From recursively cloning the main repo nikhilh-20/ELFEN there comes a permission error while cloning `rsrc/capa` and `rsrc/ELFEN_images`.
